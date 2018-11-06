@@ -1,0 +1,148 @@
+
+<form id="2128927353">
+<property name="name" value="FillProjectDetails-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="applicant_ITRequired" type="CheckBox" id="708347301">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ITRequired (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectIn/ITRequired"/>
+<property name="outputBinding" value="projectOut/ITRequired"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="applicant_category" type="InputText" id="1583748841">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;category (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectIn/category"/>
+<property name="outputBinding" value="projectOut/category"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="applicant_description" type="InputText" id="754020376">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;description (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectIn/description"/>
+<property name="outputBinding" value="projectOut/description"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="applicant_manager" type="InputText" id="1160800694">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;manager (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectIn/manager"/>
+<property name="outputBinding" value="projectOut/manager"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="applicant_projectExternalID" type="InputTextInteger" id="474283735">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectExternalID (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectIn/projectExternalID"/>
+<property name="outputBinding" value="projectOut/projectExternalID"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="applicant_projectName" type="InputText" id="613992334">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;projectName (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectIn/projectName"/>
+<property name="outputBinding" value="projectOut/projectName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="applicant_sponsor" type="InputText" id="1608985911">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;sponsor (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectIn/sponsor"/>
+<property name="outputBinding" value="projectOut/sponsor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="applicantDetail_dependencies" type="CheckBox" id="1632699544">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dependencies (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/dependencies"/>
+<property name="outputBinding" value="applicantDetailOut/dependencies"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="14" name="applicantDetail_projectExecutionPlan" type="Subform" id="1899590268">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;projectExecutionPlan (applicantDetail)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/projectExecutionPlan"/>
+<property name="outputBinding" value="applicantDetailOut/projectExecutionPlan"/>
+<property name="defaultSubform" value="project_Execution_plan.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="8" name="applicantDetail_q1PlanSpend" type="InputTextInteger" id="1063485216">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;q1PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q1PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q1PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="applicantDetail_q2PlanSpend" type="InputTextInteger" id="1534598571">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;q2PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q2PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q2PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="10" name="applicantDetail_q3PlanSpend" type="InputTextInteger" id="1170400592">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;q3PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q3PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q3PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="11" name="applicantDetail_q4PlanSpend" type="InputTextInteger" id="752649492">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;q4PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q4PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q4PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="12" name="applicantDetail_projectPrioritization" type="Subform" id="550434833">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;projectPrioritization (applicantDetail)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/projectPrioritization"/>
+<property name="outputBinding" value="applicantDetailOut/projectPrioritization"/>
+<property name="defaultSubform" value="projectPrioritization.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="13" name="applicantDetail_projectYearSpend" type="Subform" id="1690191906">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;projectYearSpend (applicantDetail)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/projectYearSpend"/>
+<property name="outputBinding" value="applicantDetailOut/projectYearSpend"/>
+<property name="defaultSubform" value="project_Yearly_Spend.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="projectIn" name="#E9E371" type="dataModelerEntry" outId="projectOut" value="com.expansivegroup.capital.capitalprojectsubmission.Project" id="applicant"/>
+<dataHolder inputId="applicantDetailIn" name="#9BCAFA" type="dataModelerEntry" outId="applicantDetailOut" value="com.expansivegroup.capital.capitalprojectsubmission.ProjectDetail" id="applicantDetail"/>
+</form>

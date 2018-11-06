@@ -1,0 +1,10 @@
+package com.expansivegroup.capital.capitalprojectsubmission;
+
+import java.lang.Number;
+
+rule "TotalSpend"
+	dialect "mvel"
+	when
+		totalCost : ProjectDetail( )
+	then
+end

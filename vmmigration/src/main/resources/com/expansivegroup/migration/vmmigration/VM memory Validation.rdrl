@@ -1,0 +1,13 @@
+package com.expansivegroup.migration.vmmigration;
+
+import java.lang.Number;
+
+rule "VM memory Validation"
+	dialect "mvel"
+	no-loop true
+	ruleflow-group "validation"
+	when
+		vminst : vmInstance( isActive == true , osType == "windows" , memory < 1024 )
+	then
+		vminst.setIsActive( false );
+end

@@ -1,0 +1,13 @@
+package com.expansivegroup.email;
+
+import java.lang.Number;
+
+rule "sendmail"
+	dialect "mvel"
+	no-loop true
+	ruleflow-group "testmail"
+	when
+		mail : sendEmail( startDate <= "08-May-2018" , endDate >= "09-May-2018" )
+	then
+		mail.send(  );
+end

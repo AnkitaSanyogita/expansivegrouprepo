@@ -1,0 +1,67 @@
+
+<form id="435811551">
+<property name="name" value="projectPrioritization.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="applicantPro_operationsPrioritization" type="InputTextInteger" id="2003231979">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;operationsPrioritization (applicantPro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantProIn/operationsPrioritization"/>
+<property name="outputBinding" value="applicantProOut/operationsPrioritization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="applicantPro_productivityNonInventoryPrioritization" type="InputTextInteger" id="1998477860">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;productivityNonInventoryPrioritization (applicantPro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantProIn/productivityNonInventoryPrioritization"/>
+<property name="outputBinding" value="applicantProOut/productivityNonInventoryPrioritization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="applicantPro_productivityPrioritization" type="InputTextInteger" id="1754741623">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;productivityPrioritization (applicantPro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantProIn/productivityPrioritization"/>
+<property name="outputBinding" value="applicantProOut/productivityPrioritization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="applicantPro_qualityPrioritization" type="InputTextInteger" id="1558839252">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;qualityPrioritization (applicantPro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantProIn/qualityPrioritization"/>
+<property name="outputBinding" value="applicantProOut/qualityPrioritization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="applicantPro_regulatoryPrioritization" type="InputTextInteger" id="1912853010">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;regulatoryPrioritization (applicantPro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantProIn/regulatoryPrioritization"/>
+<property name="outputBinding" value="applicantProOut/regulatoryPrioritization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="applicantPro_revenuePrioritization" type="InputTextInteger" id="278762765">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;revenuePrioritization (applicantPro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantProIn/revenuePrioritization"/>
+<property name="outputBinding" value="applicantProOut/revenuePrioritization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="applicantPro_safetyPrioritization" type="InputTextInteger" id="1999573760">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;safetyPrioritization (applicantPro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantProIn/safetyPrioritization"/>
+<property name="outputBinding" value="applicantProOut/safetyPrioritization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="applicantProIn" name="#E9E371" type="dataModelerEntry" outId="applicantProOut" value="com.expansivegroup.capital.capitalprojectsubmission.ProjectPrioritization" id="applicantPro"/>
+</form>

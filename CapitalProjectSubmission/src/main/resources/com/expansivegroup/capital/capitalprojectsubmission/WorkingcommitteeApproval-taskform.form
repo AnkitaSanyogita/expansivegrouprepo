@@ -1,0 +1,112 @@
+
+<form id="445897299">
+<property name="name" value="WorkingcommitteeApproval-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="12" name="approverSVP_id" type="InputTextLong" id="55305321">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (approverSVP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="approverSVPIn/id"/>
+<property name="outputBinding" value="approverSVPOut/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="7" name="applicantDetail_q3PlanSpend" type="InputTextInteger" id="690709096">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;q3PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q3PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q3PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="applicantDetail_q1PlanSpend" type="InputTextInteger" id="1154982643">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;q1PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q1PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q1PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="applicantDetail_totalPlanSpend" type="InputTextInteger" id="1543621893">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;totalPlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/totalPlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/totalPlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="applicantDetail_dependencies" type="CheckBox" id="107710445">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dependencies (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/dependencies"/>
+<property name="outputBinding" value="applicantDetailOut/dependencies"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="applicantDetail_projectExecutionPlan" type="Subform" id="228651239">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectExecutionPlan (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/projectExecutionPlan"/>
+<property name="outputBinding" value="applicantDetailOut/projectExecutionPlan"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="3" name="applicantDetail_projectPrioritization" type="Subform" id="1986620608">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectPrioritization (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/projectPrioritization"/>
+<property name="outputBinding" value="applicantDetailOut/projectPrioritization"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="11" name="approverSVP_commentOfSVP" type="InputText" id="2118751877">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;commentOfSVP (approverSVP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="approverSVPIn/commentOfSVP"/>
+<property name="outputBinding" value="approverSVPOut/commentOfSVP"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="applicantDetail_projectYearSpend" type="Subform" id="174531861">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectYearSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/projectYearSpend"/>
+<property name="outputBinding" value="applicantDetailOut/projectYearSpend"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="10" name="approverSVP_approvalOfSVP" type="CheckBox" id="1222876247">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approvalOfSVP (approverSVP)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="approverSVPIn/approvalOfSVP"/>
+<property name="outputBinding" value="approverSVPOut/approvalOfSVP"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="applicantDetail_q2PlanSpend" type="InputTextInteger" id="266859793">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;q2PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q2PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q2PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="applicantDetail_q4PlanSpend" type="InputTextInteger" id="973584155">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;q4PlanSpend (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/q4PlanSpend"/>
+<property name="outputBinding" value="applicantDetailOut/q4PlanSpend"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="applicantDetail_id" type="InputTextLong" id="1798276753">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (applicantDetail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantDetailIn/id"/>
+<property name="outputBinding" value="applicantDetailOut/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="applicantDetailIn" name="#9BCAFA" type="dataModelerEntry" outId="applicantDetailOut" value="com.expansivegroup.capital.capitalprojectsubmission.ProjectDetail" id="applicantDetail"/>
+<dataHolder inputId="approverSVPIn" name="#E9E371" type="dataModelerEntry" outId="approverSVPOut" value="com.expansivegroup.capital.capitalprojectsubmission.SVPApproval" id="approverSVP"/>
+</form>

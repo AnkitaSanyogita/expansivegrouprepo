@@ -1,0 +1,79 @@
+
+<form id="1746387621">
+<property name="name" value="ModifyVMDataforvalidation-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="vminstance_createdDate" type="InputDate" id="1823530036">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;createdDate (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/createdDate"/>
+<property name="outputBinding" value="vminstanceO/createdDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="vminstance_hostId" type="InputTextBigInteger" id="1913528030">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hostId (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/hostId"/>
+<property name="outputBinding" value="vminstanceO/hostId"/>
+<property name="fieldClass" value="java.math.BigInteger"/>
+</field>
+<field position="2" name="vminstance_isActive" type="CheckBox" id="1543516136">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isActive (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/isActive"/>
+<property name="outputBinding" value="vminstanceO/isActive"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="vminstance_isRunning" type="CheckBox" id="770349241">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isRunning (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/isRunning"/>
+<property name="outputBinding" value="vminstanceO/isRunning"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="vminstance_memory" type="InputTextPrimitiveInteger" id="247748478">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;memory (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/memory"/>
+<property name="outputBinding" value="vminstanceO/memory"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="5" name="vminstance_name" type="InputText" id="1370872971">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/name"/>
+<property name="outputBinding" value="vminstanceO/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="vminstance_numberOfCores" type="InputTextInteger" id="108196553">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfCores (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/numberOfCores"/>
+<property name="outputBinding" value="vminstanceO/numberOfCores"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="vminstance_osType" type="InputText" id="400127301">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;osType (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/osType"/>
+<property name="outputBinding" value="vminstanceO/osType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="vminstance_vmInstanceId" type="InputTextBigInteger" id="1952828027">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vmInstanceId (vminstance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vminstanceI/vmInstanceId"/>
+<property name="outputBinding" value="vminstanceO/vmInstanceId"/>
+<property name="fieldClass" value="java.math.BigInteger"/>
+</field>
+<dataHolder inputId="vminstanceI" name="#E9E371" type="dataModelerEntry" outId="vminstanceO" value="com.expansivegroup.migration.vmmigration.vmInstance" id="vminstance"/>
+</form>

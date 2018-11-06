@@ -1,0 +1,52 @@
+
+<form id="1297498970">
+<property name="name" value="project_Yearly_Spend.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="applicantSpend_project" type="InputText" id="1006223932">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;project (applicantSpend)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantSpendIn/project"/>
+<property name="outputBinding" value="applicantSpendOut/project"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="applicantSpend_planVersion" type="InputTextInteger" id="1704663644">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;planVersion (applicantSpend)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantSpendIn/planVersion"/>
+<property name="outputBinding" value="applicantSpendOut/planVersion"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="applicantSpend_startDate" type="InputDate" id="488838191">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;startDate (applicantSpend)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantSpendIn/startDate"/>
+<property name="outputBinding" value="applicantSpendOut/startDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="applicantSpend_endDate" type="InputDate" id="15697363">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;endDate (applicantSpend)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantSpendIn/endDate"/>
+<property name="outputBinding" value="applicantSpendOut/endDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="applicantSpend_spendPlan" type="InputTextInteger" id="709804091">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;spendPlan (applicantSpend)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicantSpendIn/spendPlan"/>
+<property name="outputBinding" value="applicantSpendOut/spendPlan"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="applicantSpendIn" name="#E9E371" type="dataModelerEntry" outId="applicantSpendOut" value="com.expansivegroup.capital.capitalprojectsubmission.Project_Yearly_Spend" id="applicantSpend"/>
+</form>

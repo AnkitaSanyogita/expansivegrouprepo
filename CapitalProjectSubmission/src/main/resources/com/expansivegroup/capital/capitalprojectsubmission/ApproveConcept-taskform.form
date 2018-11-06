@@ -1,0 +1,86 @@
+
+<form id="312422995">
+<property name="name" value="ApproveConcept-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="applicant_ITRequired" type="CheckBox" id="1285238505">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ITRequired (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicatIn/ITRequired"/>
+<property name="outputBinding" value="applicatOut/ITRequired"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="applicant_category" type="InputText" id="1644051126">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;category (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicatIn/category"/>
+<property name="outputBinding" value="applicatOut/category"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="applicant_description" type="InputText" id="272375225">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;description (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicatIn/description"/>
+<property name="outputBinding" value="applicatOut/description"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="applicant_manager" type="InputText" id="1689316742">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;manager (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicatIn/manager"/>
+<property name="outputBinding" value="applicatOut/manager"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="applicant_projectExternalID" type="InputTextInteger" id="431621762">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;projectExternalID (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicatIn/projectExternalID"/>
+<property name="outputBinding" value="applicatOut/projectExternalID"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="applicant_projectName" type="InputText" id="707638539">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;projectName (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicatIn/projectName"/>
+<property name="outputBinding" value="applicatOut/projectName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="applicant_sponsor" type="InputText" id="242176879">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;sponsor (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicatIn/sponsor"/>
+<property name="outputBinding" value="applicatOut/sponsor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="approverCon_approve" type="CheckBox" id="705358378">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approve (approverCon)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="approverConIn/approve"/>
+<property name="outputBinding" value="approverConOut/approve"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="approverCon_comment" type="InputText" id="1666976309">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;comment (approverCon)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="approverConIn/comment"/>
+<property name="outputBinding" value="approverConOut/comment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="applicatIn" name="#E9E371" type="dataModelerEntry" outId="applicatOut" value="com.expansivegroup.capital.capitalprojectsubmission.Project" id="applicant"/>
+<dataHolder inputId="approverConIn" name="#FBB767" type="dataModelerEntry" outId="approverConOut" value="com.expansivegroup.capital.capitalprojectsubmission.ApproveConcept" id="approverCon"/>
+</form>

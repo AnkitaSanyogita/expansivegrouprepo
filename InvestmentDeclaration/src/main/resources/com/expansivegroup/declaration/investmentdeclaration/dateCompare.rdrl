@@ -1,0 +1,12 @@
+package com.expansivegroup.declaration.investmentdeclaration;
+
+import java.lang.Number;
+
+rule "dateCompare"
+	dialect "mvel"
+	when
+		stDate : setDate( startDate >= "09-May-2018" , endDate <= "11-May-2018" )
+	then
+		stDate.connectPost( "null" );
+		stDate.setStartForm( true );
+end
